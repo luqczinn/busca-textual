@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "88bf9ccb-8887-44e0-bb17-320bf8fa8149",
+		"name": "Teste de Nivelamento - Lucas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43571043",
+		"_collection_link": "https://lucas-7271985.postman.co/workspace/fe63cda5-8124-4ebb-8bca-e16647352351/collection/43571043-88bf9ccb-8887-44e0-bb17-320bf8fa8149?action=share&source=collection_link&creator=43571043"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "SP",
+							"description": "Pesquisa de operadoras do estado de São Paulo",
+							"disabled": true
+						},
+						{
+							"key": "query",
+							"value": "37354048000108",
+							"description": "Pesquisa de operadora através de seu CNPJ",
+							"disabled": true
+						},
+						{
+							"key": "query",
+							"value": "Medicina de Grupo",
+							"description": "Pesquisa de operadoras através de modalidade",
+							"disabled": true
+						},
+						{
+							"key": "query",
+							"value": "DIRETOR PRESIDENTE",
+							"description": "Pesquisa de operadoras através do cargo representante",
+							"disabled": true
+						},
+						{
+							"key": "query",
+							"value": "419761",
+							"description": "Pesquisa de operadora através do registro ANS",
+							"disabled": true
+						},
+						{
+							"key": "query",
+							"value": "ZURICH SANTANDER BRASIL ODONTO LTDA.",
+							"description": "Pesquisa de operadora através da razão social",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
